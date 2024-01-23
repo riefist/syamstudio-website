@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syam Studio</title>
+    <link href="css/global.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="h-screen flex flex-col justify-between">
+      <header class="flex justify-between p-4 items-center">
+        <div class="brand">
+          <img src="/syamstudio.png" width="100" height="100" />
+        </div>
+        <div>
+          <h1 class="text-center">HOME OF SELFIE</h1>
+        </div>
+        <button>Contact Us</button>
+      </header>
+
+      <main class="flex flex-col items-center gap-20">
+        <section>
+          <div class="text-center">
+            <p>Let's capture your every best moments by yourself 🤳🏻🤍✨</p>
+            <p>Self Photo Studio based in Loa Janan</p>
+          </div>
+
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl m-10 lg:m-auto lg:mt-8"
+          >
+            <video autoplay loop muted>
+              <source src="/video.mp4" type="video/mp4" />
+            </video>
+            <div class="flex flex-col gap-4 justify-between">
+              <div class="flex gap-2">
+                <h2>Syam</h2>
+                <h2 id="syamstudio"></h2>
+              </div>
+              <p>
+                Address: Jl. Pembangunan No 10 RT 06 Desa Purwajaya, Kecamatan
+                Loa Janan Kabupaten Kutai Kartanegara, Kalimantan Timur 75391
+              </p>
+              <p>Booking & Information via :</p>
+              <div class="flex gap-4">
+                <a href="https://wa.me/6282157269834">
+                  <button>WA : +6282157269834</button>
+                </a>
+                <a href="https://www.instagram.com/syam_selfstudio/">
+                  <button>IG : @syam_selfstudio</button>
+                </a>
+              </div>
+              <div class="h-[500px]">
+                <img
+                  src="/ariefsayang.jpeg"
+                  class="object-cover w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex flex-col items-center">
+          <h3>Family Photo Session</h3>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-4xl m-10 lg:m-auto lg:mt-8"
+          >
+            <div>
+              <img src="family1.jpeg" />
+            </div>
+            <div>
+              <img src="family2.jpeg" />
+            </div>
+            <div>
+              <img src="family3.jpeg" />
+            </div>
+          </div>
+        </section>
+
+        <section class="flex flex-col items-center">
+          <h3>Bestie Photo Session</h3>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-4xl m-10 lg:m-auto lg:mt-8"
+          >
+            <div>
+              <img src="bestie2.jpeg" />
+            </div>
+            <div>
+              <img src="bestie4.jpeg" />
+            </div>
+            <div>
+              <img src="bestie3.jpeg" />
+            </div>
+          </div>
+        </section>
+
+        <section class="flex flex-col items-center">
+          <h3>Couple Photo Session</h3>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-4xl m-10 lg:m-auto lg:mt-8"
+          >
+            <div>
+              <img src="couple1.jpeg" />
+            </div>
+            <div>
+              <img src="couple2.jpeg" />
+            </div>
+            <div>
+              <img src="couple3.jpeg" />
+            </div>
+          </div>
+        </section>
+
+        <button id="confettiBtn" class="w-fit">More Photos</button>
+      </main>
+
+      <footer class="text-center p-20">
+        Crafted with Love, by Muhamad Arief
+      </footer>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
